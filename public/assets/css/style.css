@@ -1,0 +1,81 @@
+body { 
+    background-color: #F2F6D0; 
+    background-image: url("../images/bg.svg");
+  }
+  #wrapper {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2%;
+    background-color: rgb(223, 223, 223);
+  }
+  #title-section {
+    text-align: center;
+    color: white;
+  }
+  #articles {
+    display: inline-block;
+    overflow: auto;
+    width: 60%;
+    height: 700px;
+    padding: 5%;
+    padding-top: 2%;
+    background-color: white;
+    border-right: navy solid 2px;
+    border-bottom: navy solid 2px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+  }
+  #notes {
+    float: right;
+    width: 30%;
+    margin-top: 20px;
+    margin-right: 45px;
+    align-items: center;
+  }
+  textarea, input {
+    display: block;
+    width: 100%;
+    background-color: rgb(255, 221, 0);
+    border: white solid 2px;
+  }
+  input {
+    height: 36px;
+    font-size: 24px;
+  }
+  textarea {
+    height: 200px;
+    font-size: 18px;
+  }
+  #notes {
+    text-align: center;
+    color: white;
+    background-color: navy;
+    border-radius: 15px;
+  }
+  .jumbotron {
+    margin: 10px;
+    margin-top: 0px;
+    background-image: url("../images/wsj.jpeg");
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position: center center;
+  }
+  .jumbo-text {
+    background-color: navy;
+    border-radius: 10px;
+    padding: 10px;
+    width: 650px;
+    margin: 0px auto;
+  }
+  .btn {
+      margin: 10px;
+  }
+  .titleMargin {
+      padding: 10px;
+  }
+  .urlCss {
+      color: blue;
+  }
