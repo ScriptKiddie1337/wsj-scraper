@@ -25,7 +25,7 @@ In this assignment, you'll create a web app that lets users view and leave comme
 
 7. cheerio - check
 
-8. request
+8. request - check (axios)
 
 9. **NOTE**: If you want to earn complete credit for your work, you must use all six of these packages in your assignment.
 
